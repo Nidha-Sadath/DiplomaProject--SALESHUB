@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="CadmiumGreen">#097969</color>
+    <color name="Celadon">#AFE1AF</color>
+    <color name="EmeraldGreen">#50C878</color>
+    <color name="PastelGreen">#C1E1C1</color>
+    <color name="limegreen"> #23691A</color>
+
+    <color name="Grey">#808080</color>
+    <color name="OffWhite">#FFFAF0</color>
+
+
+    <color name="chat_color_sender">#186AB5</color>
+    <color name="chat_color_receiver">#59A507</color>
+</resources>

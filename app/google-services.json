@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "434838834645",
+    "project_id": "saleshub-backend-c6414",
+    "storage_bucket": "saleshub-backend-c6414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434838834645:android:47fa0251089cba0464c15c",
+        "android_client_info": {
+          "package_name": "com.firstapp.saleshub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8UsmbIOQVZ_naD1xDfJTTzXZIMAizjVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

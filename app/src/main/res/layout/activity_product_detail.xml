@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@drawable/chatbg"
+    android:padding="16dp">
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pressed_bg"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT LIST"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@+id/back_btn"
+            android:layout_centerVertical="true"
+            android:id="@+id/other_username"
+            />
+
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/icon_back"
+            app:tint="@color/black"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginEnd="10dp"/>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/detailProductImage"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/detailProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailProductImage"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/detailProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailProductName"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/detailProductDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailProductPrice"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailProductDescription"
+        android:layout_marginTop="20dp"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/addToCartButton"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantityEditText"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/EmeraldGreen"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Add to Cart"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/viewCartButton"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/EmeraldGreen"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@id/addToCartButton"
+        android:layout_marginTop="16dp"
+        android:text="View Cart"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
